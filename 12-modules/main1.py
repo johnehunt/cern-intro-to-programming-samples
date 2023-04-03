@@ -1,5 +1,9 @@
 import utils
 
-utils.printer(utils.default_shape)
-shape = utils.Shape("circle")
-utils.printer(shape)
+print(utils.MIN)
+print(utils.MAX)
+
+utils.printer("hello")
+
+result = utils.add(5, 6)
+print(result)

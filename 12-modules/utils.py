@@ -2,24 +2,16 @@
 
 print('Hello I am the utils module')
 
+MIN = 0
+MAX = 100
 
 def printer(some_object):
+    """prints out data supplied"""
     print('printer')
     print(some_object)
     print('done')
 
+def add(x, y):
+    """add function for two numbers"""
+    return x + y
 
-class Shape:
-
-    def __init__(self, id):
-        self.id = id
-
-    def __str__(self):
-        return 'Shape - ' + self.id
-
-
-default_shape = Shape('square')
-
-
-def _special_function():
-    print('Special function')

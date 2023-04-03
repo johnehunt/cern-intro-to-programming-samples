@@ -1,5 +1,9 @@
 from utils import *
 
-printer(default_shape)
-shape = Shape("circle")
-printer(shape)
+print(MIN)
+print(MAX)
+
+printer("hello")
+
+result = add(5, 6)
+print(result)
